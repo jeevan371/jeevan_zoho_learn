@@ -4,6 +4,6 @@ Trying to update crmmodefield table using singleline fields added in crmfield.
 * dataobjects can be used to fetch any row using getRow(column,criteria). We dont have to iterate the iterator object.
 * criterias can be appended like 
 	c1 = new Criteria(details)
-	c2 = c1.append(new criteria(details))
+	c2 = c1.and(new criteria(details))
   
   
